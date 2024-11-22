@@ -1,0 +1,18 @@
+body {
+  max-width: 1170px;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62.4px;
+} 
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+}
