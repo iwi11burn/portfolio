@@ -24,7 +24,7 @@ body {
 	bottom: 6px;
 	left: 0;
 	width: 100%;
-	height: 13px;
+	height: 15px;
 	background-color: rgba(234, 238, 251);
 	z-index: -1;
 }
@@ -115,4 +115,66 @@ body {
 	font-weight: 400;
 	line-height: 28.8px;
 	margin-bottom: 25px;
+}
+
+.skills {
+	background-color: #f6f6f8;
+	padding: 140px 0;
+}
+
+.skills__title {
+	padding-bottom: 60px;
+}
+
+.skills__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.skills__avatar {
+}
+
+.skills__list {
+	display: flex;
+	flex-direction: column;
+	gap: 86px;
+}
+
+.skills__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.skills__label {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 18px;
+	text-transform: uppercase;
+	padding-right: 14px;
+}
+
+.skills__bar {
+	width: 600px;
+	height: 32px;
+	background-color: #dbdbed;
+}
+
+.skills__progress-html {
+	width: 510px;
+	height: 32px;
+	background-color: #2352de;
+}
+
+.skills__progress-css {
+	width: 480px;
+	height: 32px;
+	background-color: #2352de;
+}
+
+.skills__progress-js {
+	width: 366px;
+	height: 32px;
+	background-color: #2352de;
 }
