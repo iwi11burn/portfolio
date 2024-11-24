@@ -4,16 +4,66 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Портфолио</title>
-		<link rel="stylesheet" href="./css/reset.css" />
-		<link rel="stylesheet" href="./css/main.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="./css/reset.css" rel="stylesheet" />
+		<link href="./css/main.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com" rel="preconnect" />
+		<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
 	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<div class="header__nav">
+						<a class="header__logo" href="#"
+							><img class="logo_images" src="./images/logo.svg" alt="логотип"
+						/></a>
+						<ul class="header__menu">
+							<li class="menu__item">
+								<a class="menu__link" href="#">Обо мне</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Навыки</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Услуги</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Портфолио</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Отзывы</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header__content">
+						<h1 class="content__title">
+							Привет, я Иван Иванов <br />
+							<span class="title__span" lang="en"
+								>frontend- <br />
+								developer
+							</span>
+						</h1>
+					</div>
+
+					<div class="scroll-prompt">
+						<p class="scroll-prompt__text">смотреть работы</p>
+						<img
+							class="scroll-prompt__arrow"
+							src="./images/arrow-down.svg"
+							alt="стрелочка вниз"
+						/>
+					</div>
+				</div>
+			</div>
+		</header>
+
 		<script src="./js/main.js"></script>
 	</body>
 </html>
