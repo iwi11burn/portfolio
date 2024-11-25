@@ -123,7 +123,7 @@
 							src="./images/code-icon.svg"
 							alt="код"
 						/>
-						<h3 class="services__subtitle subtitle">Вёрстка проектов</h3>
+						<h3 class="services__subtitle">Вёрстка проектов</h3>
 						<p class="services__text">
 							Сделаю качественную вёрстку вашего проекта по предоставленному
 							макету или примеру
@@ -135,7 +135,7 @@
 							src="./images/dev-icon.svg"
 							alt="интеграция"
 						/>
-						<h3 class="services__subtitle subtitle">Посадка на CMS</h3>
+						<h3 class="services__subtitle">Посадка на CMS</h3>
 						<p class="services__text">
 							Интегрирую ваш проект в одну из популярных CMS
 						</p>
@@ -146,7 +146,7 @@
 							src="./images/chat-icon.svg"
 							alt="поддержка"
 						/>
-						<h3 class="services__subtitle subtitle">Поддержка сайта</h3>
+						<h3 class="services__subtitle">Поддержка сайта</h3>
 						<p class="services__text">
 							Гарантирую поддержку вашего сайта на протяжении 30 дней после
 							сдача проекта
@@ -155,7 +155,6 @@
 				</ul>
 			</div>
 		</section>
-
 		<section class="works">
 			<div class="container">
 				<h2 class="works__title title">Мои работы</h2>
@@ -198,12 +197,138 @@
 				<a class="works__button" href="#">Загрузить еще</a>
 			</div>
 		</section>
-
 		<section class="reviews">
 			<div class="container">
-				<div class="reviews__title title">Отзывы клиентов</div>
+				<h2 class="reviews__title title">Отзывы клиентов</h2>
+				<div class="reviews__wrapper">
+					<div class="reviews__content">
+						<img
+							class="reviews__userpic"
+							src="./images/mark-zuckerberg.png"
+							alt="фото пользователя"
+						/>
+						<h4 class="reviews__subtitle">Марк Цукерберг</h4>
+						<p class="reviews__text">
+							Фантастика! Я всецело доволен работой этого специалиста. Быстро и
+							качественно. Рекомендую!
+						</p>
+					</div>
+					<div class="reviews__video">
+						<img src="./images/video.jpg" alt="видео отзыв" />
+					</div>
+				</div>
 			</div>
 		</section>
+		<section class="metrics">
+			<div class="container">
+				<div class="metrics__wrapper">
+					<div class="metrics__item">
+						<img class="metrics__ico" src="./images/works.svg" alt="работы" />
+						<p class="metrics__text">Выполненных работ</p>
+						<span class="metrics__amount">56</span>
+					</div>
+					<div class="metrics__item">
+						<img
+							class="metrics__ico"
+							src="./images/clients.svg"
+							alt="клиенты"
+						/>
+						<p class="metrics__text">Довольных клиентов</p>
+						<span class="metrics__amount">23</span>
+					</div>
+					<div class="metrics__item">
+						<img
+							class="metrics__ico"
+							src="./images/coffee.svg"
+							alt="чашки кофе"
+						/>
+						<p class="metrics__text">Выпито чашек кофе</p>
+						<span class="metrics__amount">477</span>
+					</div>
+					<div class="metrics__item">
+						<img class="metrics__ico" src="./images/review.svg" alt="отзывы" />
+						<p class="metrics__text">Всего отзывов</p>
+						<span class="metrics__amount">48</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contacts">
+			<div class="container">
+				<h2 class="contacts__title title">Контакты</h2>
+				<div class="contacts__wrapper">
+					<div class="contacts__content">
+						<p class="contacts__info">
+							Связаться со мной можно, воспользовавшись контактной формой, или
+							напрямую по номеру телефона, email, в соцсетях:
+						</p>
+						<a class="contacts__tel" href="tel:+38(050)1111111"
+							>+38 (050) 111 11 11</a
+						>
+						<a class="contacts__email" href="mailto:frontend-monster@email.com"
+							>frontend-monster@email.com</a
+						>
+						<div class="contacts__social">
+							<a class="contacts__link" href="#"
+								><img
+									class="contacts__ico"
+									src="./images/instagram.svg"
+									alt="инстаграм"
+							/></a>
+							<a class="contacts__link" href="#"
+								><img
+									class="contacts__ico"
+									src="./images/facebook.svg"
+									alt="фейсбук"
+							/></a>
+							<a class="contacts__link" href="#"
+								><img
+									class="contacts__ico"
+									src="./images/telegram.svg"
+									alt="телеграм"
+							/></a>
+						</div>
+					</div>
+					<form class="contacts__form">
+						<div class="contacts__input-group">
+							<div class="contacts__group">
+								<label class="contacts__label" for="name">Ваше имя</label>
+								<input
+									class="contacts__input-name"
+									type="text"
+									placeholder="Ваше имя"
+								/>
+							</div>
+							<div class="contacts__group">
+								<label class="contacts__label" for="tel">Номер телефона</label>
+								<input
+									class="contacts__input-phone"
+									type="tel"
+									placeholder="Номер телефона"
+								/>
+							</div>
+						</div>
+						<div class="contacts__group">
+							<label class="contacts__label" for="message"
+								>Ваше сообщение</label
+							>
+							<textarea
+								class="contacts__input-message"
+								placeholder="Ваше сообщение"
+							></textarea>
+						</div>
+						<div><button class="contacts__button">Отправить</button></div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<img src="./images/logo.svg" alt="" />
+				</div>
+			</div>
+		</footer>
 		<script src="./js/main.js"></script>
 	</body>
 </html>
