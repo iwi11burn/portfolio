@@ -21,28 +21,33 @@
 		>
 			<div class="container">
 				<header class="header">
+					<a class="header__logo logo" href="#"
+						><img class="logo__images" src="./images/logo.svg" alt="логотип"
+					/></a>
 					<nav class="header__nav">
-						<a class="header__logo logo" href="#"
-							><img class="logo__images" src="./images/logo.svg" alt="логотип"
-						/></a>
+						<div class="menu__button">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
 						<ul class="menu">
 							<li class="menu__item">
-								<a class="menu__link link" href="#">Обо мне</a>
+								<a class="menu__link link" href="#about">Обо мне</a>
 							</li>
 							<li class="menu__item">
-								<a class="menu__link link" href="#">Навыки</a>
+								<a class="menu__link link" href="#skills">Навыки</a>
 							</li>
 							<li class="menu__item">
-								<a class="menu__link link" href="#">Услуги</a>
+								<a class="menu__link link" href="#services">Услуги</a>
 							</li>
 							<li class="menu__item">
-								<a class="menu__link link" href="#">Портфолио</a>
+								<a class="menu__link link" href="#works">Портфолио</a>
 							</li>
 							<li class="menu__item">
-								<a class="menu__link link" href="#">Отзывы</a>
+								<a class="menu__link link" href="#reviews">Отзывы</a>
 							</li>
 							<li class="menu__item">
-								<a class="menu__link link" href="#">Контакты</a>
+								<a class="menu__link link" href="#contacts">Контакты</a>
 							</li>
 						</ul>
 					</nav>
@@ -60,7 +65,7 @@
 		</div>
 
 		<main class="main">
-			<section class="about section">
+			<section class="about section" id="about">
 				<div class="container">
 					<h2 class="about__title title">Обо мне</h2>
 					<div class="about__text">
@@ -82,7 +87,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="skills section">
+			<section class="skills section" id="skills">
 				<div class="container">
 					<h2 class="skills__title title">Навыки</h2>
 					<div class="skills__content-wrapper">
@@ -95,35 +100,29 @@
 							<li class="skills__item">
 								<span class="skills__label">html</span>
 								<div class="skills__bar">
-									<span
-										class="skills__bar-progress"
-										style="width: calc(85%)"
-									></span>
+									<span class="sr-only">Прогресс изучения навыка html</span>
+									<span class="skills__bar-progress" style="width: 85%"></span>
 								</div>
 							</li>
 							<li class="skills__item">
 								<span class="skills__label">css</span>
 								<div class="skills__bar">
-									<span
-										class="skills__bar-progress"
-										style="width: calc(80%)"
-									></span>
+									<span class="sr-only">Прогресс изучения навыка css</span>
+									<span class="skills__bar-progress" style="width: 80%"></span>
 								</div>
 							</li>
 							<li class="skills__item">
 								<span class="skills__label">js</span>
 								<div class="skills__bar">
-									<span
-										class="skills__bar-progress"
-										style="width: calc(61%)"
-									></span>
+									<span class="sr-only">Прогресс изучения навыка js</span>
+									<span class="skills__bar-progress" style="width: 61%"></span>
 								</div>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</section>
-			<section class="services section">
+			<section class="services section" id="services">
 				<div class="container">
 					<h2 class="services__title title">Услуги</h2>
 					<ul class="services__list">
@@ -150,7 +149,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="works">
+			<!-- <section class="works" id="works">
 				<div class="container">
 					<h2 class="works__title title">Мои работы</h2>
 					<div class="works__list">
@@ -214,7 +213,7 @@
 					<button class="btn-primary" type="button">Загрузить еще</button>
 				</div>
 			</section>
-			<section class="reviews section">
+			<section class="reviews section" id="reviews">
 				<div class="container">
 					<h2 class="reviews__title title">Отзывы клиентов</h2>
 					<div class="reviews__wrapper">
@@ -241,7 +240,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="metrics section">
+			<section class="metrics section" id="metrics">
 				<h2 class="sr-only">Метрики</h2>
 				<div class="container">
 					<ul class="metrics__wrapper">
@@ -264,7 +263,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="contacts">
+			<section class="contacts" id="contacts">
 				<div class="container">
 					<h2 class="contacts__title title">Контакты</h2>
 					<div class="contacts__wrapper">
@@ -344,7 +343,7 @@
 								>
 								<textarea
 									id="message"
-									class="contacts__input contacts__textarea"
+									class="contacts__input contacts__input-textarea"
 									placeholder="Текст вашего сообщения"
 								></textarea>
 							</div>
@@ -360,15 +359,16 @@
 					><img class="logo__images" src="./images/logo.svg" alt="логотип"
 				/></a>
 			</div>
-		</footer>
+		</footer> -->
 
-		<script
-			src="https://code.jquery.com/jquery-3.7.1.min.js"
-			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-			crossorigin="anonymous"
-		></script>
-		<script src="./js/jquery.fancybox.min.js"></script>
-		<script src="./js/mixitup.min.js"></script>
-		<script src="./js/main.js"></script>
+			<script
+				src="https://code.jquery.com/jquery-3.7.1.min.js"
+				integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+				crossorigin="anonymous"
+			></script>
+			<script src="./js/jquery.fancybox.min.js"></script>
+			<script src="./js/mixitup.min.js"></script>
+			<script src="./js/main.js"></script>
+		</main>
 	</body>
 </html>
