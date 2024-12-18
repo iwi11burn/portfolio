@@ -2,6 +2,7 @@ $(function () {
 	$('.menu__button, .menu__link').on('click', function () {
 		$('.header').toggleClass('header--active')
 		$('.menu__button').toggleClass('open')
+		$('body').toggleClass('lock')
 	})
 
 	$('.menu').on('click', 'a', function (event) {

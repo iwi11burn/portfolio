@@ -60,7 +60,7 @@
 						</span>
 					</h1>
 				</section>
-				<a class="title-page__scroll link" href="#">смотреть работы</a>
+				<a class="title-page__scroll link" href="#works">смотреть работы</a>
 			</div>
 		</div>
 
@@ -149,20 +149,20 @@
 					</ul>
 				</div>
 			</section>
-			<!-- <section class="works" id="works">
+			<section class="works" id="works">
 				<div class="container">
 					<h2 class="works__title title">Мои работы</h2>
 					<div class="works__list">
-						<button class="works__item" type="button" data-filter="all">
+						<button class="works__item" data-filter="all" type="button">
 							Все работы
 						</button>
-						<button class="works__item" type="button" data-filter=".category-a">
+						<button class="works__item" data-filter=".category-a" type="button">
 							Лендинги
 						</button>
-						<button class="works__item" type="button" data-filter=".category-b">
+						<button class="works__item" data-filter=".category-b" type="button">
 							Корпоративные
 						</button>
-						<button class="works__item" type="button" data-filter=".category-c">
+						<button class="works__item" data-filter=".category-c" type="button">
 							E-commerce
 						</button>
 					</div>
@@ -218,11 +218,19 @@
 					<h2 class="reviews__title title">Отзывы клиентов</h2>
 					<div class="reviews__wrapper">
 						<figure class="reviews__content">
-							<img
-								class="reviews__userpic"
-								src="./images/mark-zuckerberg.png"
-								alt="Марк Цукерберг"
-							/>
+							<div class="reviews__userpic-container">
+								<img
+									class="reviews__userpic"
+									src="./images/mark-zuckerberg.png"
+									alt="Марк Цукерберг"
+								/>
+								<a
+									class="reviews__video-mobile"
+									data-fancybox
+									href="https://www.youtube.com/watch?v=VbeM8Lf7s5A"
+									style="background-image: url(./images/video.jpg)"
+								></a>
+							</div>
 							<figcaption class="reviews__subtitle">Марк Цукерберг</figcaption>
 							<blockquote class="reviews__text">
 								Фантастика! Я всецело доволен работой этого специалиста. Быстро
@@ -230,10 +238,10 @@
 							</blockquote>
 						</figure>
 						<a
-							style="background-image: url(./images/video.jpg)"
 							class="reviews__video"
 							data-fancybox
 							href="https://www.youtube.com/watch?v=VbeM8Lf7s5A"
+							style="background-image: url(./images/video.jpg)"
 						>
 							<span class="sr-only">Ссылка для включения видео</span>
 						</a>
@@ -291,24 +299,24 @@
 								<li class="social__item">
 									<a
 										class="social__link"
-										style="background-image: url(./images/instagram.svg)"
 										href="#"
+										style="background-image: url(./images/instagram.svg)"
 										><span class="sr-only">мы в Инстаграм</span></a
 									>
 								</li>
 								<li class="social__item">
 									<a
 										class="social__link"
-										style="background-image: url(./images/facebook.svg)"
 										href="#"
+										style="background-image: url(./images/facebook.svg)"
 										><span class="sr-only">мы в Фейсбук</span></a
 									>
 								</li>
 								<li class="social__item">
 									<a
 										class="social__link"
-										style="background-image: url(./images/telegram.svg)"
 										href="#"
+										style="background-image: url(./images/telegram.svg)"
 										><span class="sr-only">мы в Телеграм</span></a
 									>
 								</li>
@@ -319,9 +327,9 @@
 								<div class="contacts__group">
 									<label class="contacts__label" for="name">Ваше имя</label>
 									<input
-										type="text"
-										id="name"
 										class="contacts__input"
+										id="name"
+										type="text"
 										placeholder="Иван"
 									/>
 								</div>
@@ -330,9 +338,9 @@
 										>Номер телефона</label
 									>
 									<input
-										type="tel"
-										id="tel"
 										class="contacts__input"
+										id="tel"
+										type="tel"
 										placeholder="+380501111111"
 									/>
 								</div>
@@ -342,8 +350,8 @@
 									>Ваше сообщение</label
 								>
 								<textarea
-									id="message"
 									class="contacts__input contacts__input-textarea"
+									id="message"
 									placeholder="Текст вашего сообщения"
 								></textarea>
 							</div>
@@ -351,15 +359,15 @@
 						</form>
 					</div>
 				</div>
-			</section>-->
+			</section>
 		</main>
-		<!-- <footer class="footer">
+		<footer class="footer">
 			<div class="footer__container container">
 				<a class="footer__logo logo" href="#"
 					><img class="logo__images" src="./images/logo.svg" alt="логотип"
 				/></a>
 			</div>
-		</footer> -->
+		</footer>
 
 		<script
 			src="https://code.jquery.com/jquery-3.7.1.min.js"
