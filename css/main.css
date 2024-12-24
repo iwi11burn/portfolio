@@ -146,9 +146,6 @@ body.lock {
 	height: 127px;
 }
 
-.header__logo {
-}
-
 .header {
 	position: fixed;
 	z-index: 1;
@@ -344,7 +341,7 @@ body.lock {
 }
 
 .services {
-	padding-top: 140px;
+	padding-bottom: 70px;
 }
 
 .services__list {
@@ -393,6 +390,7 @@ body.lock {
 
 .works {
 	text-align: center;
+	padding-top: 70px;
 	padding-bottom: 140px;
 }
 
@@ -877,7 +875,12 @@ body.lock {
 	}
 
 	.header {
+		height: 67px;
 		padding-top: 15px;
+	}
+
+	.header.header--active {
+		height: 67px;
 	}
 
 	.header__logo {
